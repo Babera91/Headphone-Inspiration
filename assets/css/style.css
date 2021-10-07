@@ -1,6 +1,7 @@
 *{
     margin:0;
     padding:0;
+    color:white;
 }
 body{
     background-color: #2e2e2e;
@@ -53,7 +54,7 @@ main section:nth-of-type(3){
 
 }
 main section:nth-of-type(3) img{
-    width: 70vw;
+    width: 55vw;
     height: 100vh;
 }
 main section:nth-of-type(3) div:nth-of-type(2){
@@ -83,7 +84,7 @@ main section:nth-of-type(4) div:nth-of-type(2) p{
 }
 /* Text section between 4 - 5*/
 main section:nth-of-type(5){
-    margin: 0% 0% 10% 17%;
+    margin: 0% 0% 10% 20%;
 }
 #Video{
     margin: 20% 0% 10% 20%;
@@ -122,19 +123,25 @@ main section:nth-of-type(7){
 }
 main section:nth-of-type(7) img{
     width: 45rem;
+    margin-top: 10%;
 }
 main section:nth-of-type(7) div:nth-of-type(2){
-    margin:5% 0% 0% 5%;
+    margin:10% 0% 0% 5%;
     line-height: 3em;
 }
 /* Beoplay*/
+
+#Headphone{
+    margin-left: 12%;
+    
+}
 
 footer section{
     display: flex;
     margin-top: 10%;
 }
 footer div:nth-of-type(1) img{
-    width: 50rem;
+    width: 60rem;
     height: 100vh;
 }
 /* Article */
@@ -142,6 +149,15 @@ footer div:nth-of-type(2) article{
     margin-left: 50%;
     line-height: 3em;
 }
+
+footer p:first-of-type{
+    margin-left: 5%;
+}
+ 
+footer p:last-of-type{
+    margin-left: 16%;
+}
+
 footer div:nth-of-type(2) img{
     margin-left:10%;
 }
@@ -151,4 +167,7 @@ footer div:nth-of-type(2) a{
     background-color:white;
     border:solid white;
     padding: 5% 10%;
+    color: black;
+    margin-left: 6%;
 }
+
